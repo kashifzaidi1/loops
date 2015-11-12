@@ -387,7 +387,15 @@ textarea.form-control {
 
 .start {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 16px;
+	font-size: 28px;
+	font-style: normal;
+	text-transform: none;
+	margin: 15px 0;
+}
+
+.end {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-size: 20px;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -553,8 +561,8 @@ textarea.form-control {
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
-	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-size: 20px;
+    font-family: Raleway, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -954,6 +962,8 @@ figure.effect-bubba:hover p {
 .cbp-qtrotator .cbp-qtcontent img {
 	float: right;
 	margin-left: 3em;
+	height: 100px;
+	height: 100px;
 }
 
 /* Example for media query */
