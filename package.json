@@ -1,0 +1,27 @@
+{
+  "name": "IRocks",
+  "version": "1.0.0",
+  "description": "An application to show up your resume.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "author": "shamroze raza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "*",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "moment": "^2.10.6",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.7",
+    "mongoose-types": "^1.0.3",
+    "multer": "^1.1.0",
+    "nodemailer": "^0.7.1",
+    "nodemon": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}

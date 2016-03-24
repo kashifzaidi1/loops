@@ -1,0 +1,10 @@
+{
+  "name": "IRocks",
+  "version": "1.0.0",
+  "description": "An application to show up your resume.",
+  "dependencies": {
+    "angular": "~1.4.9",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
