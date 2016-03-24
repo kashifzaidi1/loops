@@ -1,5 +1,33 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+/*@import url(http://fonts.googleapis.com/css?family=Lobster); was there - but unused*/
+
+@font-face {
+	src: url('../fonts/Raleway/Raleway-Regular.ttf');
+	font-family: 'Raleway';
+}
+
+@font-face {
+	src: url('../fonts/Raleway/Raleway-Light.ttf');
+	font-family: 'Raleway';
+	font-weight: 300;
+}
+
+@font-face {
+	src: url('../fonts/Raleway/Raleway-Medium.ttf');
+	font-family: 'Raleway';
+	font-weight: 500;
+}
+
+@font-face {
+	src: url('../fonts/Raleway/Raleway-Bold.ttf');
+	font-family: 'Raleway';
+	font-weight: 700;
+}
+
+@font-face {
+	src: url('../fonts/Raleway/Raleway-ExtraBold.ttf');
+	font-family: 'Raleway';
+	font-weight: 800;
+}
 
 /*!
  * Clean v2.0.0
