@@ -154,7 +154,7 @@
 			else {
 					 $.ajax({
 							type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-							url         : 'sendEmail', // the url where we want to POST
+							url         : 'job/sendEmail', // the url where we want to POST
 							data        : formData, // our data object
 							success		: function(res){;
 											response.html("Thank You!").fadeIn(500);
