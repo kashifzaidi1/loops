@@ -17,7 +17,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'public/css/all.min.css': ['public/libraries/bootstrap/dist/css/bootstrap.css', 
+          'public/css/all.css': ['public/libraries/bootstrap/dist/css/bootstrap.css', 
                                     'public/libraries/font-awesome/css/font-awesome.css',
                                     'public/css/animate.css',
                                     'public/css/style.css']
