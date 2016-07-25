@@ -139,7 +139,7 @@
 			var c_name = $('#c_name').val();
 			var c_email = $('#c_email').val();
 			var c_message = $('#c_message ').val();
-			var response = $('#contact-form .ajax-response');
+			var response = $('.ajax-response');
 			
 			var formData = {
 				'name'       : c_name,
@@ -158,7 +158,9 @@
 							url         : 'job/sendEmail', // the url where we want to POST
 							data        : formData, // our data object
 							success		: function(res){;
-											response.html("Thank You!").fadeIn(500);
+											response.html("Thanks for your message! We'll get back to you shortly.").fadeIn(500);
+											$('#contact-form').hide();
+
 							}
 						});
 				}           

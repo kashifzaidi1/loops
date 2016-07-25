@@ -67,7 +67,7 @@ exports.sendEmail = function(req,res) {
 
 	smtpTransport.sendMail({
 	   from: req.body.email, // sender address
-	   to: "shamroze.raza@gmail.com", // comma separated list of receivers
+	   to: "sales@loopsdigital.com", // comma separated list of receivers
 	   attachments: fileAttachment,
 	   subject: "job application", // Subject line
 	   html: htmlString    
